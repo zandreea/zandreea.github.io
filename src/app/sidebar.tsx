@@ -29,16 +29,13 @@ const Sidebar = () => {
            👋 Hi, I’m @andreeazlei
            </Typography>
            <Typography variant="body2" color="text.secondary" sx={{ marginBottom: 2 }}>
-👀 I’m interested in technology & coding, nature, books, art, and people!
-</Typography>
+            👀 I’m interested in technology & coding, nature, books, art, and people!
+          </Typography>
           <Typography variant="body2" color="text.secondary" sx={{ marginBottom: 2 }}>
-🌱 I’m currently learning & using Flutter, React, Typescript. Non-coding projects include doing art and learning Dutch.
-
-</Typography>
-
+            🌱 I’m currently learning & using Flutter, React, Typescript. Non-coding projects include doing art and learning Dutch.
+          </Typography>
           <Typography variant="body2" color="text.secondary" sx={{ marginBottom: 2 }}>
-💞️ I’m looking to collaborate on personal coding projects or art projects 👀
-
+            💞️ I’m looking to collaborate on personal coding projects or art projects 👀
           </Typography>
           <Box>
             <Link href="https://www.linkedin.com/in/andreeazlei/" target="_blank" color="inherit">

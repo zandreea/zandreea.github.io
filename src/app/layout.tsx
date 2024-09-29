@@ -1,5 +1,4 @@
-// app/layout.tsx
-"use client"; // Only if you have hooks or client logic here
+"use client";
 
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import "./globals.css";

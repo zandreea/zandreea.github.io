@@ -1,10 +1,9 @@
-// SkillProgress.tsx
 import React from 'react';
 import { Box, Typography, LinearProgress } from '@mui/material';
 
 const skills = [
-  { name: "Front-end", level: 3.5, max: 5 },
-  { name: "Back-end", level: 1.5, max: 5 },
+  { name: "Front-end", level: 4, max: 5 },
+  { name: "Back-end", level: 2, max: 5 },
 ];
 
 const SkillProgress = () => {

@@ -22,5 +22,25 @@ body {
 .project-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  grid-template-rows: repeat(2, auto);  gap: 10px;
+  grid-template-rows: repeat(2, auto);  
+  gap: 10px;
+  align-items: stretch;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .project-wrapper {
+    grid-template-columns:  repeat(2, 1fr); /* 2 columns */
+  }
+}
+
+@media (max-width: 600px) {
+  .project-wrapper {
+    grid-template-columns: 1fr; /* 1 column */
+  }
 }
