@@ -33,10 +33,17 @@ const projects = [
   },
   {
     title: "Java App on Managing Reservations on Campus",
-    description: "Co-developed a campus reservation application in Java, ",
+    description: "Co-developed a campus reservation application in Java, in which you could book rooms, view your calendar, order food, and more.",
     image: "/images/campus-manager.png",
     link: "",
     tags: ["Java", "JavaFX"]
+  },
+  {
+    title: "Discord Bot with Tic Tac Toe and Mastermind",
+    description: "Developed this bot for personal use in a discord server, with discord.js, a node.js module. Implemented a single player Mastermind game and a two-player Tic-TacToe game, along with some basic bot commands. Made games playable by users in the server by calling specific commands, and designed a simple, yet effective interface by printing ASCII art in the chat.",
+    image: "/images/discord.webp",
+    link: "https://github.com/zandreea/discord-js-bot",
+    tags: ["NodeJs", "DiscordJs"]
   },
 ];
 
@@ -56,10 +63,9 @@ export default function Home() {
           </Typography>
         </Box>
         
-        <Grid container spacing={4}>
+        <Container className='project-wrapper'>
           {projects.map((project, index) => (
-            <Grid item xs={12} sm={6} md={4} key={index}>
-              <Card>
+              <Card key={index}>
                 <CardActionArea href={project.link} target="_blank">
                   <CardMedia
                     component="img"
@@ -88,24 +94,23 @@ export default function Home() {
                     target="_blank"
                     sx={{
                       width: '100%',
-                      backgroundColor: '#373e93', // Customize the background color
-                      color: '#fff', // Text color
-                      borderRadius: '0px 0px 4px 4px', // Rounded corners
-                      padding: '10px 20px', // Padding
-                      transition: 'background-color 0.3s ease', // Smooth transition for hover
+                      backgroundColor: '#373e93', 
+                      color: '#fff',
+                      borderRadius: '0px 0px 4px 4px',
+                      padding: '10px 20px',
+                      transition: 'background-color 0.3s ease',
                       '&:hover': {
-                        backgroundColor: '#1a1370', // Darker shade on hover
+                        backgroundColor: '#1a1370',
                       },
-                      boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)', // Shadow for depth
-                      fontWeight: 'bold', // Bold text
+                      boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
+                      fontWeight: 'bold',
                     }}
                   >
                     View Project
                   </Button>
               </Card>
-            </Grid>
           ))}
-        </Grid>
+        </Container>
       </Container>
     </Box>
   );

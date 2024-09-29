@@ -18,3 +18,9 @@ body {
     text-wrap: balance;
   }
 }
+
+.project-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: repeat(2, auto);  gap: 10px;
+}
