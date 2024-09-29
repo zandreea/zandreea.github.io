@@ -2,6 +2,7 @@ import React from 'react';
 import { IconButton,Typography, Box, Link } from '@mui/material';
 import SkillProgress from './skillProgress';
 import { GitHub, LinkedIn } from '@mui/icons-material';
+import './globals.css';
 
 const MobileHeader = () => {
   return (

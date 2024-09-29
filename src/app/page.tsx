@@ -1,8 +1,9 @@
 "use client"
 import React, { useState } from 'react';
-import { Container, Card, CardActionArea, CardContent, CardMedia, Typography, Button, Box, Chip, Dialog, DialogTitle, DialogContent, useMediaQuery, Theme } from '@mui/material';
+import { Container, Card, CardActionArea, CardContent, CardMedia, Typography, Button, Box, Chip, Dialog, useMediaQuery, Theme } from '@mui/material';
 import Sidebar from './sidebar';
-import MobileHeader from './mobileNavBar';
+import MobileHeader from './mobileHeader';
+import './globals.css';
 
 const projects = [
   {

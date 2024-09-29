@@ -1,6 +1,7 @@
 import { Drawer, Box, Typography, IconButton, Link } from '@mui/material';
-import { LinkedIn, GitHub, BookOnline, Home } from '@mui/icons-material';
+import { LinkedIn, GitHub } from '@mui/icons-material';
 import SkillProgress from './skillProgress';
+import './globals.css';
 
 const Sidebar = () => {
     return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box, Typography, LinearProgress } from '@mui/material';
+import './globals.css';
 
 const skills = [
   { name: "Front-end", level: 4, max: 5 },
