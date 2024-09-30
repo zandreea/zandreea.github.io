@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/zandreea.github.io' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/zandreea.github.io/' : '',
+  basePath: '',
+  assetPrefix: '',
 };
 
 export default nextConfig;
